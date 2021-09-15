@@ -2,7 +2,7 @@ from typing import List, Tuple, Union
 
 Container = Union[List[int], Tuple[int]]
 
-def evalpoly(c: Container, x: float) -> float:
+def evalpoly(c: Container, x: int) -> int:
     '''Pure Python evalpoly, ported from JavaScript by kgryte @github.com
     MIT License Copyright (c) 2016 The Compute.io Authors.
     c is a list or tuple of ordered polynomial coefficents.
